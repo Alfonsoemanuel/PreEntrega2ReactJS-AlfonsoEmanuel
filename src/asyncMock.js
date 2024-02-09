@@ -6,7 +6,7 @@ const products = [
         category: 'interior', 
         img:'https://www.sibaco.com/archivos/website/productos/520/principal.png', 
         stock: 25, 
-        description:'Descripcion de Iphone 12'
+        description:'Latex ideal para el interior del hogar'
     },
 
     { id: '2', 
@@ -15,14 +15,14 @@ const products = [
     category: 'interior', 
     img:'https://dcdn.mitiendanube.com/stores/002/552/837/products/diseno-sin-titulo-2023-07-16t205323-4031-e246b925b2db43799416895516305694-1024-1024.webp', 
     stock: 16, 
-    description:'Descripcion de Samsung s21'},
+    description:'Alba color mate buenisimo'},
 
     { id: '3', 
     name: 'Tersuave esmalte sintetico', 
     price: 1200, 
     category: 'exterior', 
     img:'https://acdn.mitiendanube.com/stores/001/743/130/products/tersilux-esmalte-sintetico-3en1-br-4l-2-copia-cf28313f854889b4fa16970451593921-1024-1024.webp', 
-    stock: 0, 
+    stock: 2, 
     description:'pintura 3 en 1 ideal para muebles de exterior'},
 
     { id: '4', 
@@ -30,6 +30,7 @@ const products = [
     price: 800, 
     category: 'exterior', 
     img:'https://pisano.vtexassets.com/arquivos/ids/292468/52.png?v=638404128935230000',
+    stock: 5,
     description:'Enduido especial para grietas del exterior'},
 
     { id: '5', 
@@ -62,7 +63,7 @@ const products = [
     category: 'diluyente', 
     img:'https://www.colorin.com/wp-content/uploads/2020/01/solvex-mult-4-litro.png', 
     stock: 16, 
-    description:'Solvex Multiuso es un thinner de evaporación rápida y regulada. Permite la aplicación de lacas y impresiones nitrocelulósicas y nitrosintéticas como selladores y fondos para la industria de la madera, muebles y también para productos automotor y acabados en general. Puede usarse como un excelente auxiliar para tareas de limpieza de resinas, aceites, grasas, ceras, sustancias bituminosas y carbonosas, favoreciendo así múltiples aplicaciones en el hogar, el taller y la industri'},
+    description:'Solvex Multiuso es un thinner de evaporación rápida y regulada. Permite la aplicación de lacas y impresiones nitrocelulósicas y nitrosintéticas como selladores y fondos para la industria de la madera, muebles y también para productos automotor y acabados en general. Puede usarse como un excelente auxiliar para tareas de limpieza de resinas, aceites, grasas, ceras, sustancias bituminosas y carbonosas, favoreciendo así múltiples aplicaciones en el hogar, el taller y la industria'},
 
     { id: '9', 
     name: 'Tersuave thinner oro', 

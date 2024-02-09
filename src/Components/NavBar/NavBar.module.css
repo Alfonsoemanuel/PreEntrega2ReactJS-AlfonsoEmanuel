@@ -1,3 +1,17 @@
 .logo{
+    padding: 10px;
+    margin-inline: 850px;
+    font-size: 30px;
     color: red;
+    text-align: center;
+}
+
+.directorio{
+    font-size: 25px;
+    background-color: white;
+}
+
+.btn{
+    background-color: whitesmoke;
+    margin-inline: 300px;
 }

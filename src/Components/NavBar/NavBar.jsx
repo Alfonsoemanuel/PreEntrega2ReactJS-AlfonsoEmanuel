@@ -6,11 +6,11 @@ import { Link } from 'react-router-dom'
 const NavBar = () => {
     return (
         <nav>
-            <Link to='/' className={classes.h1}>La magica</Link>
-            <section>
-                <Link to='category/interior' className={'btn btn-danger'}>Interior</Link>
-                <Link to='category/exterior' className={'btn btn-danger'}>Exterior</Link>
-                <Link to='category/diluyente' className={'btn btn-danger'}>Diluyentes</Link>
+            <Link to='/' className={classes.logo}>La magica</Link>
+            <section className={classes.directorio}>
+                <Link to='category/interior' className={classes.btn}>Interior</Link>
+                <Link to='category/exterior' className={classes.btn}>Exterior</Link>
+                <Link to='category/diluyente' className={classes.btn}>Diluyentes</Link>
                 <CartWidget/>
             </section>
         </nav>
